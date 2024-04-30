@@ -247,6 +247,8 @@ async function determineHabitats(attributes, data) {
 
 }
 
+//Random change to example branch merging ignore this text
+
 async function determineColor(attributes, data) {
 
     const response = await fetch(`https://pokeapi.co/api/v2/pokemon-species/${data.name}`);
