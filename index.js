@@ -239,7 +239,7 @@ async function determineHabitats(attributes, data) {
     else {
         attributes[3].style.backgroundColor = "tomato";
         attributes[3].textContent = pokemonHabitat.habitat.name;
-        //Random modification to give an example of git diff
+        
     } 
 
 
@@ -247,7 +247,12 @@ async function determineHabitats(attributes, data) {
 
 }
 
-//This is my weird and random change to my default master branch :)
+
+// I will write plenty of random 
+// text but not lorem ipsum because 
+// i dont feel like it, we will use 
+// this text for the merge
+
 
 async function determineColor(attributes, data) {
 
