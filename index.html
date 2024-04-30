@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="pokemonInput" placeholder="Enter pokemon name:">
+    <button onclick="fetchData()" class="button"></button>
+    
+    <br><br>
+    <div id="autocompleteList"></div>
+    <audio id="pokemonCry" src="">Pokemon Cry: </audio><br>
+    <div id="container">
+    <div id="typeContainer">
+        <div class="labelledBox">
+            <div class="label">Pokemon</div>
+            <div id="pokemon" class="details">
+                <img src="" alt="Pokemon Sprite" id="pokemonSprite" style="display: none">
+                <div class="text"><!-- Text will be inserted dynamically --></div>
+            </div>
+        </div>
+        <div class="labelledBox">
+            <div class="label">Type 1</div>
+            <div id="type1" class="details">
+
+                <div class="text"><!-- Text will be inserted dynamically --></div>
+            </div>
+        </div>
+        <div class="labelledBox">
+            <div class="label">Type 2</div>
+            <div id="type2" class="details">
+
+                <div class="text"><!-- Text will be inserted dynamically --></div>
+            </div>
+        </div>
+        <div class="labelledBox">
+            <div class="label">Habitat</div>
+            <div id="habitat" class="details">
+
+                <div class="text"><!-- Text will be inserted dynamically --></div>
+            </div>
+        </div>
+        <div class="labelledBox">
+            <div class="label">Color(s)</div>
+            <div id="color" class="details">
+
+                <div class="text"><!-- Text will be inserted dynamically --></div>
+            </div>
+        </div>
+        <div class="labelledBox">
+            <div class="label">Stage</div>
+            <div id="evoStage" class="details">
+
+                <div class="text"><!-- Text will be inserted dynamically --></div>
+            </div>
+        </div>
+        <div class="labelledBox">
+            <div class="label">Height</div>
+            <div id="height" class="details">
+                <img src="" alt="" id="heightImg">
+                <div class="text"><!-- Text will be inserted dynamically --></div>
+            </div>
+        </div>
+        <div class="labelledBox">
+            <div class="label">Weight</div>
+            <div id="weight" class="details">
+                <div class="container">
+                    <img src="" alt="" id="weightImg">
+                    <div class="text"><!-- Text will be inserted dynamically --></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+    <h1 id="winMsg"></h1>
+
+    <button onclick="retryGame()">Retry</button><br>
+    <button onclick="solutionBtn()">Solution: </button>
+    <h2 id="solution" ></h2>
+    <script src="index.js"></script>
+</body>
+
+</html>
