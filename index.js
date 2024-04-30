@@ -239,7 +239,8 @@ async function determineHabitats(attributes, data) {
     else {
         attributes[3].style.backgroundColor = "tomato";
         attributes[3].textContent = pokemonHabitat.habitat.name;
-    }
+        //Random modification to give an example of git diff
+    } 
 
 
 
